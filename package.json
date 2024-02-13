@@ -1,0 +1,42 @@
+{
+    "name": "orbit-contracts",
+    "version": "0.0.1",
+    "description": "Orbit Lending Protocol",
+    "main": "index.js",
+    "scripts": {},
+    "author": "Orbit",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+        "@nomicfoundation/hardhat-ethers": "^3.0.0",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+        "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+        "@nomicfoundation/hardhat-verify": "^1.0.0",
+        "@typechain/ethers-v6": "^0.4.0",
+        "@typechain/hardhat": "^8.0.0",
+        "@types/chai": "^4.2.0",
+        "@types/mocha": ">=9.1.0",
+        "@types/node": ">=16.0.0",
+        "bignumber.js": "9.0.0",
+        "chai": "^4.2.0",
+        "ethers": "^6.4.0",
+        "hardhat": "^2.14.0",
+        "hardhat-gas-reporter": "^1.0.8",
+        "jest-diff": "^26.4.2",
+        "jest-junit": "^11.1.0",
+        "prettier": "^1.19.0",
+        "solhint": "^3.3.7",
+        "solidity-coverage": "^0.8.0",
+        "solparse": "^2.2.8",
+        "ts-node": ">=8.0.0",
+        "typechain": "^8.1.0",
+        "typescript": ">=4.5.0"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^5.0.1",
+        "@solidity-parser/parser": "^0.13.2",
+        "@uniswap/v3-core": "^1.0.1",
+        "eth-saddle": "^0.1.25",
+        "hardhat-ethernal": "^3.2.5"
+    }
+}

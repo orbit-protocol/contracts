@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Hardhat artifacts & cache
+artifacts/
+cache/
+coverage/
+typechain-types/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Hardhat & truffle build directories
+build/
+builds/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
