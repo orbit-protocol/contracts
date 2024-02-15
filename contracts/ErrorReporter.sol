@@ -130,4 +130,5 @@ contract TokenErrorReporter {
     error SetInterestRateModelFreshCheck();
 
     error BlastYieldOwnerCheck();
+    error BlastTransferFailed();
 }
