@@ -53,3 +53,5 @@ This project is licensed under the MIT License
 - Discord: [https://discord.gg/orbitprotocol](https://discord.gg/4MFstFJcap)
 
 Join our community to stay updated on the latest developments and participate in shaping the future of DeFi on the Blast network.
+
+Hope to contribute there.
