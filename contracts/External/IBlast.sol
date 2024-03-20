@@ -98,6 +98,9 @@ interface IERC20Rebasing is IERC20 {
     // changes the yield mode of the caller and update the balance
     // to reflect the configuration
     function configure(YieldMode) external returns (uint256);
+    function getConfiguration(
+        address account
+    ) external view returns (YieldMode);
     // "claimable" yield mode accounts can call this this claim their yield
     // to another address
     function claim(
@@ -108,4 +111,8 @@ interface IERC20Rebasing is IERC20 {
     function getClaimableAmount(
         address account
     ) external view returns (uint256);
+}
+
+interface IBlastPoints {
+    function configurePointsOperator(address operator) external;
 }
